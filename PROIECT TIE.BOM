@@ -1,0 +1,21 @@
+  Revised: Friday, May 17, 2024
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials            May 17,2024      0:32:13	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	C1	100mfd
+2	1	IC1	LM35/TO
+3	1	LED1	RED LED
+4	1	LED2	GREEN LED
+5	2	R1,R2	470E
+6	1	UR1	10k
+7	1	U1G1	LM358

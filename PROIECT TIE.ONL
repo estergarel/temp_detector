@@ -1,0 +1,338 @@
+(PCB "PROIECT TIE"
+ (description
+  (timeStamp "2024 05 22 20 52 36")
+  (program "CAPTURE.EXE" (Version "16.6.0.d001 - D"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Wednesday, May 22, 2024")
+  (document "C:\\USERS\\ONOSA\\DESKTOP\\AN 2 SEM 2 FACULTATE\\TIE\\PROIECT TIE\\PROIECT TIE.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component POT
+   (place UR1
+    (property 
+     ("PCB Footprint" 3362P_1)
+     (timestamp 000001DF)
+     ("Source Package" POT)
+     (Value 10k))))
+  (component LM358_1
+   (place U1G1
+    (property 
+     ("PCB Footprint" DIP794W53P254L959H508Q8N)
+     (timestamp 00000030)
+     ("Source Package" LM358_1)
+     (Value LM358))))
+  (component "CAP POL"
+   (place C1
+    (property 
+     ("PCB Footprint" CAPPRD200W55D500H1200)
+     (timestamp 000000CB)
+     ("Source Package" "CAP POL")
+     (Value 100mfd))))
+  (component LED
+   (place LED1
+    (property 
+     ("PCB Footprint" HLMP1301)
+     (timestamp 0000006C)
+     ("Source Package" LED)
+     (Value "RED LED")))
+   (place LED2
+    (property 
+     ("PCB Footprint" HLMP1503)
+     (timestamp 0000007C)
+     ("Source Package" LED)
+     (Value "GREEN LED"))))
+  (component RESISTOR
+   (place R1
+    (property 
+     ("PCB Footprint" RESAD8800W80L5400D850)
+     (timestamp 00000095)
+     ("Source Package" RESISTOR)
+     (Value 470E)))
+   (place R2
+    (property 
+     ("PCB Footprint" RESAD8800W80L5400D850)
+     (timestamp 000000A5)
+     ("Source Package" RESISTOR)
+     (Value 470E))))
+  (component LM35/TO_2
+   (place IC1
+    (property 
+     ("PCB Footprint" LP0003A)
+     (timestamp 000000E8)
+     ("Source Package" LM35/TO_2)
+     (Value LM35)))))
+ (library
+  (image LM358_1
+   (property 
+    (sourcelib "C:\\USERS\\ONOSA\\DESKTOP\\AN 2 SEM 2 FACULTATE\\TIE\\PROIECT TIE\\PROIECT TIE.DSN"))
+   (pin 999 3
+    (property 
+     (pinname +IN_A)
+     (pintype 0)
+     (Name +IN)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00254)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname "-IN_A")
+     (pintype 0)
+     (Name "-IN")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00521)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname OUT_A)
+     (pintype 2)
+     (Name OUT)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N00258)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname VCC)
+     (pintype 7)
+     (Name VCC)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" +5V)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname +IN_B)
+     (pintype 0)
+     (Name +IN)
+     (Type Input)
+     (Order 0)
+     (Long True)
+     (Clock False)
+     (Dot False)
+     ("Pin Number Is Visible" True)))
+   (pin 999 6
+    (property 
+     (pinname "-IN_B")
+     (pintype 0)
+     (Name "-IN")
+     (Type Input)
+     (Order 1)
+     (Long True)
+     (Clock False)
+     (Dot False)
+     ("Pin Number Is Visible" True)))
+   (pin 999 7
+    (property 
+     (pinname OUT_B)
+     (pintype 2)
+     (Name OUT)
+     (Type Output)
+     (Order 2)
+     (Long True)
+     (Clock False)
+     (Dot False)
+     ("Pin Number Is Visible" True))))
+  (image RESISTOR
+   (property 
+    (sourcelib D:\\ORCADUS\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00332)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "CAP POL"
+   (property 
+    (sourcelib D:\\ORCADUS\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image LED
+   (property 
+    (sourcelib D:\\ORCADUS\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 2
+    (property 
+     (pinname ANODE)
+     (pintype 4)
+     (Name ANODE)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00332)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname CATHODE)
+     (pintype 4)
+     (Name CATHODE)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00258)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image LM35/TO_2
+   (property 
+    (sourcelib "C:\\USERS\\ONOSA\\DESKTOP\\AN 2 SEM 2 FACULTATE\\TIE\\PROIECT TIE\\PROIECT TIE.DSN"))
+   (pin 999 1
+    (property 
+     (pinname +VS)
+     (pintype 0)
+     (Name +VS)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname VO)
+     (pintype 2)
+     (Name VO)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N00254)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image POT
+   (property 
+    (sourcelib D:\\ORCADUS\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname A)
+     (pintype 4)
+     (Name A)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname B)
+     (pintype 4)
+     (Name B)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname WIPER)
+     (pintype 4)
+     (Name WIPER)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00521)
+     (Order 2)
+     ("Is No Connect" False)))))
+ (network
+  (net +5V
+    (property 
+     (nettype S))
+   (pins
+     R1-1 C1-1 IC1-1 UR1-1 U1G1-8))
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     U1G1-4 LED2-1 C1-2 IC1-3 UR1-3))
+  (net N00254
+   (pins
+     U1G1-3 IC1-2))
+  (net N00258
+   (pins
+     U1G1-1 LED1-1 R2-1))
+  (net N00275
+   (pins
+     LED2-2 R2-2))
+  (net N00332
+   (pins
+     LED1-2 R1-2))
+  (net N00521
+   (pins
+     U1G1-2 UR1-2)))
+)

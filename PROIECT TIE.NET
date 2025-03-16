@@ -1,0 +1,59 @@
+Wire List
+
+                                              Revised: Wednesday, May 22, 2024
+C:\USERS\ONOSA\DESKTOP\AN 2 SEM 2 FACULTATE\TIRevision: 
+
+
+
+
+
+
+<<< Component List >>>
+100mfd                        C1        CAPPRD200W55D500H1200
+LM35                          IC1       LP0003A
+RED LED                       LED1      HLMP1301
+GREEN LED                     LED2      HLMP1503
+470E                          R1        RESAD8800W80L5400D850
+470E                          R2        RESAD8800W80L5400D850
+LM358                         U1G1      DIP794W53P254L959H508Q8N
+10k                           UR1       3362P_1
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] +5V
+        R1              1       1               Passive        470E
+        C1              1       1               Passive        100mfd
+        IC1             1       +VS             Input          LM35
+        UR1             1       A               Passive        10k
+        U1G1            8       VCC             Power          LM358
+
+[00002] GND
+        U1G1            4       GND             Power          LM358
+        LED2            1       CATHODE         Passive        GREEN LED
+        C1              2       2               Passive        100mfd
+        IC1             3       GND             Power          LM35
+        UR1             3       B               Passive        10k
+
+[00003] N00254
+        U1G1            3       +IN_A           Input          LM358
+        IC1             2       VO              Output         LM35
+
+[00004] N00258
+        U1G1            1       OUT_A           Output         LM358
+        LED1            1       CATHODE         Passive        RED LED
+        R2              1       1               Passive        470E
+
+[00005] N00275
+        LED2            2       ANODE           Passive        GREEN LED
+        R2              2       2               Passive        470E
+
+[00006] N00332
+        LED1            2       ANODE           Passive        RED LED
+        R1              2       2               Passive        470E
+
+[00007] N00521
+        U1G1            2       -IN_A           Input          LM358
+        UR1             2       WIPER           Passive        10k
+
